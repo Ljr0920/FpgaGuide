@@ -2,7 +2,7 @@
 
 ## 友情链接
 
-1. [**南工在线**](online.njtech.edu.cn)
+1. [**南工在线**](http://online.njtech.edu.cn)
 
 2. [**FPGA模块**]( https://github.com/NjtechPrinceling/PrincelingModuleHub )
 
@@ -40,3 +40,4 @@
 ### Digital-Design-Lab
 
 我们学习FPGA的课本对应的源码，能够直接用的开发板有`basys3`和`EGO-1`.
+
