@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/lab4_filter/lab4/multip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multip
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/lab4_filter/lab4/FIR_filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIR_filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/lab4_filter/lab4/FIR_count.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIR_count
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/lab4_filter/lab4/FIR_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIR_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/lab4_filter/lab4/sim/FIR_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIR_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/lab4_filter/lab4_filter.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

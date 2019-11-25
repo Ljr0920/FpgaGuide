@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon Oct 24 19:51:54 2016
+# Process ID: 27068
+# Current directory: F:/fpga_xilinx/fpga/2016.10.24/myself/project/lab4_filter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27556 F:\fpga_xilinx\fpga\2016.10.24\myself\project\lab4_filter\lab4_filter.xpr
+# Log file: F:/fpga_xilinx/fpga/2016.10.24/myself/project/lab4_filter/vivado.log
+# Journal file: F:/fpga_xilinx/fpga/2016.10.24/myself/project/lab4_filter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/fpga_xilinx/fpga/2016.10.24/myself/project/lab4_filter/lab4_filter.xpr
+INFO: [Project 1-313] Project file moved from 'D:/lab4_filter' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:12 . Memory (MB): peak = 742.320 ; gain = 153.500
+reset_run synth_1
+reset_run dist_mem_gen_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'dist_mem_gen_0'...
+[Mon Oct 24 19:52:28 2016] Launched dist_mem_gen_0_synth_1, synth_1...
+Run output will be captured here:
+dist_mem_gen_0_synth_1: F:/fpga_xilinx/fpga/2016.10.24/myself/project/lab4_filter/lab4_filter.runs/dist_mem_gen_0_synth_1/runme.log
+synth_1: F:/fpga_xilinx/fpga/2016.10.24/myself/project/lab4_filter/lab4_filter.runs/synth_1/runme.log
+[Mon Oct 24 19:52:28 2016] Launched impl_1...
+Run output will be captured here: F:/fpga_xilinx/fpga/2016.10.24/myself/project/lab4_filter/lab4_filter.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 24 20:07:26 2016...

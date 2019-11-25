@@ -1,0 +1,10 @@
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+Time: 0 ps  Iteration: 0  Process: /FIR_tb/fir/your_instance_name/U0/p_warn_behavioural  File: D:/lab4_filter/lab4_filter.ip_user_files/ipstatic/dist_mem_gen_v8_0_9/simulation/dist_mem_gen_v8_0.vhd
+Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+Time: 0 ps  Iteration: 0  Process: /FIR_tb/fir/your_instance_name/U0/p_warn_behavioural  File: D:/lab4_filter/lab4_filter.ip_user_files/ipstatic/dist_mem_gen_v8_0_9/simulation/dist_mem_gen_v8_0.vhd
+Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+Time: 0 ps  Iteration: 0  Process: /FIR_tb/fir/your_instance_name/U0/p_warn_behavioural  File: D:/lab4_filter/lab4_filter.ip_user_files/ipstatic/dist_mem_gen_v8_0_9/simulation/dist_mem_gen_v8_0.vhd
+Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+Time: 0 ps  Iteration: 0  Process: /FIR_tb/fir/your_instance_name/U0/p_warn_behavioural  File: D:/lab4_filter/lab4_filter.ip_user_files/ipstatic/dist_mem_gen_v8_0_9/simulation/dist_mem_gen_v8_0.vhd

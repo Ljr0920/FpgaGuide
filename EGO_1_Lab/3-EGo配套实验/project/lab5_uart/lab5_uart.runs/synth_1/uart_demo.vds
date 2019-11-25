@@ -1,0 +1,574 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Tue Oct 25 11:12:18 2016
+# Process ID: 2760
+# Current directory: F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.runs/synth_1
+# Command line: vivado.exe -log uart_demo.vds -mode batch -messageDb vivado.pb -notrace -source uart_demo.tcl
+# Log file: F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.runs/synth_1/uart_demo.vds
+# Journal file: F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source uart_demo.tcl -notrace
+Command: synth_design -top uart_demo -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6836 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 307.871 ; gain = 100.637
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'uart_demo' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/uart_demo.v:2]
+INFO: [Synth 8-638] synthesizing module 'input_signal_processing' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/input_signal_processing.v:2]
+INFO: [Synth 8-638] synthesizing module 'meta_harden' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/meta_harden.v:2]
+INFO: [Synth 8-256] done synthesizing module 'meta_harden' (1#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/meta_harden.v:2]
+INFO: [Synth 8-638] synthesizing module 'btn_debounce' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/btn_debounce.v:2]
+INFO: [Synth 8-638] synthesizing module 'reverse_detect' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/reverse_detect.v:2]
+INFO: [Synth 8-256] done synthesizing module 'reverse_detect' (2#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/reverse_detect.v:2]
+INFO: [Synth 8-638] synthesizing module 'delay_10ms' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/delay_10ms.v:2]
+	Parameter T10MS bound to: 20'b11110100001001000000 
+INFO: [Synth 8-256] done synthesizing module 'delay_10ms' (3#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/delay_10ms.v:2]
+INFO: [Synth 8-638] synthesizing module 'out_ctl' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/out_ctl.v:3]
+WARNING: [Synth 8-5788] Register pin_out_reg in module out_ctl is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/out_ctl.v:13]
+INFO: [Synth 8-256] done synthesizing module 'out_ctl' (4#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/out_ctl.v:3]
+INFO: [Synth 8-256] done synthesizing module 'btn_debounce' (5#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/btn_debounce.v:2]
+INFO: [Synth 8-638] synthesizing module 'L2H_detect' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/L2H_detect.v:2]
+INFO: [Synth 8-256] done synthesizing module 'L2H_detect' (6#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/L2H_detect.v:2]
+INFO: [Synth 8-256] done synthesizing module 'input_signal_processing' (7#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/input_signal_processing.v:2]
+INFO: [Synth 8-638] synthesizing module 'uart_top' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/uart_top.v:2]
+INFO: [Synth 8-638] synthesizing module 'en_ctl' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/code_ctl.v:2]
+INFO: [Synth 8-256] done synthesizing module 'en_ctl' (8#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/code_ctl.v:2]
+INFO: [Synth 8-638] synthesizing module 'data_buf' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.runs/synth_1/.Xil/Vivado-2760-element-PC/realtime/data_buf_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'data_buf' (9#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.runs/synth_1/.Xil/Vivado-2760-element-PC/realtime/data_buf_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'tx_top' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/tx_top.v:2]
+INFO: [Synth 8-638] synthesizing module 'tx_band_gen' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/tx_band_gen.v:2]
+	Parameter SYS_RATE bound to: 100000000 - type: integer 
+	Parameter BAND_RATE bound to: 9600 - type: integer 
+	Parameter CNT_BAND bound to: 10416 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'tx_band_gen' (10#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/tx_band_gen.v:2]
+INFO: [Synth 8-638] synthesizing module 'tx_ctl' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/tx_ctl.v:2]
+	Parameter IDLE bound to: 4'b0000 
+	Parameter BEGIN bound to: 4'b0001 
+	Parameter DATA0 bound to: 4'b0010 
+	Parameter DATA1 bound to: 4'b0011 
+	Parameter DATA2 bound to: 4'b0100 
+	Parameter DATA3 bound to: 4'b0101 
+	Parameter DATA4 bound to: 4'b0110 
+	Parameter DATA5 bound to: 4'b0111 
+	Parameter DATA6 bound to: 4'b1000 
+	Parameter DATA7 bound to: 4'b1001 
+	Parameter END bound to: 4'b1010 
+	Parameter BFREE bound to: 4'b1011 
+INFO: [Synth 8-155] case statement is not full and has no default [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/tx_ctl.v:28]
+INFO: [Synth 8-256] done synthesizing module 'tx_ctl' (11#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/tx_ctl.v:2]
+INFO: [Synth 8-256] done synthesizing module 'tx_top' (12#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/tx_top.v:2]
+INFO: [Synth 8-638] synthesizing module 'rx_top' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/rx_top.v:2]
+INFO: [Synth 8-638] synthesizing module 'H2L_detect' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/H2L_detect.v:2]
+INFO: [Synth 8-256] done synthesizing module 'H2L_detect' (13#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/H2L_detect.v:2]
+INFO: [Synth 8-638] synthesizing module 'rx_band_gen' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/rx_band_gen.v:2]
+	Parameter SYS_RATE bound to: 100000000 - type: integer 
+	Parameter BAND_RATE bound to: 9600 - type: integer 
+	Parameter CNT_BAND bound to: 10416 - type: integer 
+	Parameter HALF_CNT_BAND bound to: 5208 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'rx_band_gen' (14#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/rx_band_gen.v:2]
+INFO: [Synth 8-638] synthesizing module 'rx_ctl' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/rx_ctl.v:2]
+	Parameter IDLE bound to: 4'b0000 
+	Parameter BEGIN bound to: 4'b0001 
+	Parameter DATA0 bound to: 4'b0010 
+	Parameter DATA1 bound to: 4'b0011 
+	Parameter DATA2 bound to: 4'b0100 
+	Parameter DATA3 bound to: 4'b0101 
+	Parameter DATA4 bound to: 4'b0110 
+	Parameter DATA5 bound to: 4'b0111 
+	Parameter DATA6 bound to: 4'b1000 
+	Parameter DATA7 bound to: 4'b1001 
+	Parameter END bound to: 4'b1010 
+	Parameter BFREE bound to: 4'b1011 
+INFO: [Synth 8-155] case statement is not full and has no default [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/rx_ctl.v:26]
+INFO: [Synth 8-256] done synthesizing module 'rx_ctl' (15#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/rx_ctl.v:2]
+INFO: [Synth 8-256] done synthesizing module 'rx_top' (16#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/rx_top.v:2]
+INFO: [Synth 8-256] done synthesizing module 'uart_top' (17#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/uart_top.v:2]
+INFO: [Synth 8-638] synthesizing module 'data_show' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/data_show.v:2]
+INFO: [Synth 8-638] synthesizing module 'number_encode' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/number_encode.v:2]
+	Parameter _0 bound to: 8'b10111111 
+	Parameter _1 bound to: 8'b10000110 
+	Parameter _2 bound to: 8'b11011011 
+	Parameter _3 bound to: 8'b11001111 
+	Parameter _4 bound to: 8'b11100110 
+	Parameter _5 bound to: 8'b11101101 
+	Parameter _6 bound to: 8'b11111101 
+	Parameter _7 bound to: 8'b10000111 
+	Parameter _8 bound to: 8'b11111111 
+	Parameter _9 bound to: 8'b11101111 
+	Parameter _10 bound to: 8'b11110111 
+	Parameter _11 bound to: 8'b11111100 
+	Parameter _12 bound to: 8'b10111001 
+	Parameter _13 bound to: 8'b11011110 
+	Parameter _14 bound to: 8'b11111001 
+	Parameter _15 bound to: 8'b11110001 
+INFO: [Synth 8-256] done synthesizing module 'number_encode' (18#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/number_encode.v:2]
+INFO: [Synth 8-638] synthesizing module 'scan_data' [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/scan_data.v:2]
+	Parameter AN0 bound to: 4'b0001 
+	Parameter AN1 bound to: 4'b0010 
+	Parameter AN2 bound to: 4'b0100 
+	Parameter AN3 bound to: 4'b1000 
+	Parameter FRE_CNT bound to: 20'b10011000100101101000 
+INFO: [Synth 8-256] done synthesizing module 'scan_data' (19#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/scan_data.v:2]
+INFO: [Synth 8-256] done synthesizing module 'data_show' (20#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/data_show.v:2]
+INFO: [Synth 8-256] done synthesizing module 'uart_demo' (21#1) [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/uart_demo.v:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 344.242 ; gain = 137.008
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 344.242 ; gain = 137.008
+---------------------------------------------------------------------------------
+WARNING: [Project 1-560] Could not resolve non-primitive black box cell 'data_buf' instantiated as 'uart_top/rx_buf'. 2 instances of this cell are unresolved black boxes. [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/sources_1/imports/lab5/uart_top.v:40]
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.runs/synth_1/.Xil/Vivado-2760-element-PC/dcp/data_buf_in_context.xdc] for cell 'uart_top/rx_buf'
+Finished Parsing XDC File [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.runs/synth_1/.Xil/Vivado-2760-element-PC/dcp/data_buf_in_context.xdc] for cell 'uart_top/rx_buf'
+Parsing XDC File [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.runs/synth_1/.Xil/Vivado-2760-element-PC/dcp/data_buf_in_context.xdc] for cell 'uart_top/tx_buf'
+Finished Parsing XDC File [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.runs/synth_1/.Xil/Vivado-2760-element-PC/dcp/data_buf_in_context.xdc] for cell 'uart_top/tx_buf'
+Parsing XDC File [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/constrs_1/imports/constr/uart.xdc]
+WARNING: [Vivado 12-507] No nets matched 'rx_pin_jb1_IBUF'. [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/constrs_1/imports/constr/uart.xdc:56]
+WARNING: [Vivado 12-507] No nets matched 'tx_pin_jb0_OBUF'. [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/constrs_1/imports/constr/uart.xdc:57]
+Finished Parsing XDC File [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/constrs_1/imports/constr/uart.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/constrs_1/imports/constr/uart.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/uart_demo_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/fpga_xilinx/fpga/2016.10.25/myself/lab5_uart/lab5_uart.srcs/constrs_1/imports/constr/uart.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/uart_demo_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/uart_demo_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 650.371 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 650.371 ; gain = 443.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 650.371 ; gain = 443.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 650.371 ; gain = 443.137
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "dly_over" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "en_reg" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "clk_bps" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk_bps" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pos" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 650.371 ; gain = 443.137
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 4     
+	   2 Input     14 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               20 Bit    Registers := 4     
+	               14 Bit    Registers := 2     
+	                8 Bit    Registers := 6     
+	                4 Bit    Registers := 4     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 35    
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 4     
+	   2 Input     14 Bit        Muxes := 4     
+	   6 Input      8 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	  16 Input      8 Bit        Muxes := 4     
+	   4 Input      8 Bit        Muxes := 1     
+	   6 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 22    
+	   6 Input      1 Bit        Muxes := 11    
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module meta_harden 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module reverse_detect 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module delay_10ms 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 1     
++---Registers : 
+	               20 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module out_ctl 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module L2H_detect 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module en_ctl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module tx_band_gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 1     
++---Registers : 
+	               14 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module tx_ctl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   6 Input      4 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 7     
+Module H2L_detect 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module rx_band_gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 1     
++---Registers : 
+	               14 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module rx_ctl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   6 Input      8 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   6 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 1     
+Module number_encode 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	  16 Input      8 Bit        Muxes := 1     
+Module scan_data 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               20 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 650.371 ; gain = 443.137
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "sig_processing/get_btn/delay_10ms/dly_over" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sig_processing/send_btn/delay_10ms/dly_over" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sig_processing/en_sw/delay_10ms/dly_over" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "uart_top/tx_top/tx_band_gen/clk_bps" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "uart_top/rx_top/rx_band_gen/clk_bps" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_show/scan_data/pos" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 650.371 ; gain = 443.137
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 650.371 ; gain = 443.137
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'data_show/rx_up_encode/code_out_reg[7]' (FDP) to 'data_show/tx_up_encode/code_out_reg[7]'
+INFO: [Synth 8-3886] merging instance 'data_show/tx_up_encode/code_out_reg[7]' (FDP) to 'data_show/rx_down_encode/code_out_reg[7]'
+INFO: [Synth 8-3886] merging instance 'data_show/rx_down_encode/code_out_reg[7]' (FDP) to 'data_show/tx_down_encode/code_out_reg[7]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\data_show/tx_down_encode/code_out_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (data_show/scan_data/seg_code_reg[7]) is unused and will be removed from module uart_demo.
+WARNING: [Synth 8-3332] Sequential element (data_show/tx_up_encode/code_out_reg[7]) is unused and will be removed from module uart_demo.
+WARNING: [Synth 8-3332] Sequential element (data_show/rx_up_encode/code_out_reg[7]) is unused and will be removed from module uart_demo.
+WARNING: [Synth 8-3332] Sequential element (data_show/rx_down_encode/code_out_reg[7]) is unused and will be removed from module uart_demo.
+WARNING: [Synth 8-3332] Sequential element (data_show/tx_down_encode/code_out_reg[7]) is unused and will be removed from module uart_demo.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 650.371 ; gain = 443.137
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 650.371 ; gain = 443.137
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 650.371 ; gain = 443.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 650.371 ; gain = 443.137
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 650.371 ; gain = 443.137
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 650.371 ; gain = 443.137
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 650.371 ; gain = 443.137
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 650.371 ; gain = 443.137
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 650.371 ; gain = 443.137
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 650.371 ; gain = 443.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 650.371 ; gain = 443.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 650.371 ; gain = 443.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 650.371 ; gain = 443.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |data_buf      |         2|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |data_buf    |     1|
+|2     |data_buf__1 |     1|
+|3     |BUFG        |     2|
+|4     |CARRY4      |    28|
+|5     |LUT1        |   108|
+|6     |LUT2        |    96|
+|7     |LUT3        |    11|
+|8     |LUT4        |    64|
+|9     |LUT5        |    25|
+|10    |LUT6        |    53|
+|11    |FDCE        |   152|
+|12    |FDPE        |    53|
+|13    |FDRE        |     2|
+|14    |LDC         |     3|
+|15    |IBUF        |    14|
+|16    |OBUF        |    17|
++------+------------+------+
+
+Report Instance Areas: 
++------+---------------------+------------------------+------+
+|      |Instance             |Module                  |Cells |
++------+---------------------+------------------------+------+
+|1     |top                  |                        |   648|
+|2     |  data_show          |data_show               |   138|
+|3     |    rx_down_encode   |number_encode           |     7|
+|4     |    rx_up_encode     |number_encode_13        |     7|
+|5     |    scan_data        |scan_data               |    96|
+|6     |    tx_down_encode   |number_encode_14        |    14|
+|7     |    tx_up_encode     |number_encode_15        |    14|
+|8     |  sig_processing     |input_signal_processing |   262|
+|9     |    en_sw            |btn_debounce            |    84|
+|10    |      delay_10ms     |delay_10ms_9            |    74|
+|11    |      out_ctl        |out_ctl_10              |     6|
+|12    |      pin_meta       |meta_harden_11          |     3|
+|13    |      reverse_detect |reverse_detect_12       |     1|
+|14    |    get_btn          |btn_debounce_0          |    84|
+|15    |      delay_10ms     |delay_10ms_5            |    74|
+|16    |      out_ctl        |out_ctl_6               |     6|
+|17    |      pin_meta       |meta_harden_7           |     3|
+|18    |      reverse_detect |reverse_detect_8        |     1|
+|19    |    read_detect      |L2H_detect              |     1|
+|20    |    rst_meta         |meta_harden             |     6|
+|21    |    rx_pin_meta      |meta_harden_1           |     2|
+|22    |    send_btn         |btn_debounce_2          |    84|
+|23    |      delay_10ms     |delay_10ms              |    74|
+|24    |      out_ctl        |out_ctl                 |     6|
+|25    |      pin_meta       |meta_harden_4           |     3|
+|26    |      reverse_detect |reverse_detect          |     1|
+|27    |    write_detect     |L2H_detect_3            |     1|
+|28    |  uart_top           |uart_top                |   215|
+|29    |    en_ctl           |en_ctl                  |    14|
+|30    |    rx_top           |rx_top                  |    95|
+|31    |      rx_band_gen    |rx_band_gen             |    51|
+|32    |      rx_ctl         |rx_ctl                  |    41|
+|33    |      rx_in_detect   |H2L_detect              |     3|
+|34    |    tx_top           |tx_top                  |    70|
+|35    |      tx_band_gen    |tx_band_gen             |    51|
+|36    |      tx_ctl         |tx_ctl                  |    19|
++------+---------------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 650.371 ; gain = 443.137
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 650.371 ; gain = 105.852
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 650.371 ; gain = 443.137
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 45 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3 instances were transformed.
+  LDC => LDCE: 3 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+71 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 650.371 ; gain = 416.688
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 650.371 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 25 11:12:58 2016...

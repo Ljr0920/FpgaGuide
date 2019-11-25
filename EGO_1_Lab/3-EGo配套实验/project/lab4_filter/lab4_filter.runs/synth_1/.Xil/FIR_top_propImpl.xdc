@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:F:/fpga_xilinx/fpga/2016.10.24/myself/project/lab4_filter/lab4_filter.srcs/constrs_1/new/test.xdc rfile:../../../lab4_filter.srcs/constrs_1/new/test.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:9 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN P17 [get_ports clk]
+set_property src_info {type:XDC file:1 line:10 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN P15 [get_ports rst]

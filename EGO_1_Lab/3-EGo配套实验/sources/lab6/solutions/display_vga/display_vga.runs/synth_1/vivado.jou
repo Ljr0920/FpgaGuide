@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Fri Oct 21 10:21:35 2016
+# Process ID: 1204
+# Current directory: E:/lab/display_vga/display_vga.runs/synth_1
+# Command line: vivado.exe -log top_flyinglogo.vds -mode batch -messageDb vivado.pb -notrace -source top_flyinglogo.tcl
+# Log file: E:/lab/display_vga/display_vga.runs/synth_1/top_flyinglogo.vds
+# Journal file: E:/lab/display_vga/display_vga.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_flyinglogo.tcl -notrace

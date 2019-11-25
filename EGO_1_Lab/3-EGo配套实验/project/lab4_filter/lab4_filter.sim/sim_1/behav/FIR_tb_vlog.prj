@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../lab4/multip.v"
+verilog xil_defaultlib  "../../../lab4/FIR_filter.v"
+verilog xil_defaultlib  "../../../lab4/FIR_count.v"
+verilog xil_defaultlib  "../../../lab4/FIR_top.v"
+verilog xil_defaultlib  "../../../lab4/sim/FIR_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

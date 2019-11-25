@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1477365040">
+  <File Type="ROUTE-STATUS-PB" Name="uart_demo_route_status.pb"/>
+  <File Type="PA-TCL" Name="uart_demo.tcl"/>
+  <File Type="OPT-DCP" Name="uart_demo_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="uart_demo_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="uart_demo_methodology_drc_opted.rpt"/>
+  <File Type="RDI-RDI" Name="uart_demo.vdi"/>
+  <File Type="PWROPT-DRC" Name="uart_demo_drc_pwropted.rpt"/>
+  <File Type="OPT-DRC" Name="uart_demo_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="uart_demo_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="uart_demo.hwdef"/>
+  <File Type="OPT-TIMING" Name="uart_demo_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="uart_demo_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="uart_demo_placed.dcp"/>
+  <File Type="PLACE-IO" Name="uart_demo_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="uart_demo_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="uart_demo_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="uart_demo_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="uart_demo_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="uart_demo_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="uart_demo_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="uart_demo_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="uart_demo_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="uart_demo_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="uart_demo_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="uart_demo_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="uart_demo_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="uart_demo_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="uart_demo_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="uart_demo_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="uart_demo_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="uart_demo_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="uart_demo_methodology_drc_routed.pb"/>
+  <File Type="BG-BIT" Name="uart_demo.bit"/>
+  <File Type="ROUTE-PWR" Name="uart_demo_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="uart_demo_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="uart_demo_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="uart_demo_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="uart_demo_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="uart_demo_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="uart_demo_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="uart_demo_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="uart_demo_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="uart_demo_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="uart_demo_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="uart_demo_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="uart_demo_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="uart_demo_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="uart_demo.bin"/>
+  <File Type="BITSTR-MSK" Name="uart_demo.msk"/>
+  <File Type="BITSTR-RBT" Name="uart_demo.rbt"/>
+  <File Type="BITSTR-NKY" Name="uart_demo.nky"/>
+  <File Type="BITSTR-BMM" Name="uart_demo_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="uart_demo.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="uart_demo.sysdef"/>
+  <File Type="BG-BGN" Name="uart_demo.bgn"/>
+  <File Type="BG-DRC" Name="uart_demo.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/reverse_detect.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/reverse_detect.v"/>
+        <Attr Name="ImportTime" Val="1447294654"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/out_ctl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/out_ctl.v"/>
+        <Attr Name="ImportTime" Val="1447298116"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/meta_harden.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/meta_harden.v"/>
+        <Attr Name="ImportTime" Val="1447293686"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/delay_10ms.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/delay_10ms.v"/>
+        <Attr Name="ImportTime" Val="1447297368"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/H2L_detect.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/H2L_detect.v"/>
+        <Attr Name="ImportTime" Val="1447331784"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/tx_band_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/tx_band_gen.v"/>
+        <Attr Name="ImportTime" Val="1447378514"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/rx_ctl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/rx_ctl.v"/>
+        <Attr Name="ImportTime" Val="1449232210"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/rx_band_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/rx_band_gen.v"/>
+        <Attr Name="ImportTime" Val="1447378298"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/tx_ctl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/tx_ctl.v"/>
+        <Attr Name="ImportTime" Val="1447406194"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/L2H_detect.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/L2H_detect.v"/>
+        <Attr Name="ImportTime" Val="1447294312"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/btn_debounce.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/btn_debounce.v"/>
+        <Attr Name="ImportTime" Val="1447406528"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/code_ctl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/code_ctl.v"/>
+        <Attr Name="ImportTime" Val="1451635350"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/rx_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/rx_top.v"/>
+        <Attr Name="ImportTime" Val="1447406058"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/tx_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/tx_top.v"/>
+        <Attr Name="ImportTime" Val="1447406132"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/number_encode.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/number_encode.v"/>
+        <Attr Name="ImportTime" Val="1475146562"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/scan_data.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/scan_data.v"/>
+        <Attr Name="ImportTime" Val="1475150437"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/uart_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/uart_top.v"/>
+        <Attr Name="ImportTime" Val="1451634794"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/data_show.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/data_show.v"/>
+        <Attr Name="ImportTime" Val="1447302290"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/input_signal_processing.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/input_signal_processing.v"/>
+        <Attr Name="ImportTime" Val="1451634928"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab5/uart_demo.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/uart_demo.v"/>
+        <Attr Name="ImportTime" Val="1473041668"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="uart_demo"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constr/uart.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../2016.10.25/myself/lab5/constr/uart.xdc"/>
+        <Attr Name="ImportTime" Val="1477361761"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="data_buf"/>
+</GenRun>
