@@ -13,6 +13,10 @@
 > @王磊
 >
 > 创建此仓库，用于南京工业大学电子FPGA自学，持续更新
+>
+> 增加了Digital-Design-Lab
+>
+> 增加了boards
 
 ## 上手之前须知
 
@@ -21,7 +25,7 @@
    
 1. [廖雪峰的git教程]( https://www.liaoxuefeng.com/wiki/896043488029600 )。
    
-3. 板卡文件如何使用？
+3. <span id="boardIntroduction">板卡文件如何使用？</span>
 
    [答案戳这里]( https://reference.digilentinc.com/vivado/installing-vivado/2018.2 )
 
@@ -41,3 +45,6 @@
 
 我们学习FPGA的课本对应的源码，能够直接用的开发板有`basys3`和`EGO-1`.
 
+### boards
+
+Digilent最新的板卡文件。如何使用请看[这里](#boardIntroduction)。
