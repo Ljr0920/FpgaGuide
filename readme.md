@@ -1,5 +1,11 @@
 # FPGA 自学指南
 
+## 友情链接
+
+1. [**南工在线**](online.njtech.edu.cn)
+
+2. [**FPGA模块**]( https://github.com/NjtechPrinceling/PrincelingModuleHub )
+
 ## 更新日志
 
 > @2019年11月25日
@@ -10,10 +16,11 @@
 
 ## 上手之前须知
 
-1. 由于 Vivado 不能解析中文路径，请确保自己的工程目录没有英文，否则综合**必定失败**
+1. `Vivado` 不能解析中文路径，请确保自己的工程目录没有英文，否则综合**必定失败**
 2. 每个人都应该会使用 **GitHub**
-   1. [廖雪峰的git教程]( https://www.liaoxuefeng.com/wiki/896043488029600 )。
-
+   
+1. [廖雪峰的git教程]( https://www.liaoxuefeng.com/wiki/896043488029600 )。
+   
 3. 板卡文件如何使用？
 
    [答案戳这里]( https://reference.digilentinc.com/vivado/installing-vivado/2018.2 )
@@ -30,3 +37,6 @@
 
 手把手叫你学习EGO1，一些即开即用的程序。
 
+### Digital-Design-Lab
+
+我们学习FPGA的课本对应的源码，能够直接用的开发板有`basys3`和`EGO-1`.
