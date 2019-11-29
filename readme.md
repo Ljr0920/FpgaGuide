@@ -1,10 +1,13 @@
-# FPGA 自学指南
+# <center>FPGA 自学指南</center>
 
 ## 友情链接
 
-1. [**南工在线**](http://online.njtech.edu.cn)
-
-2. [**FPGA模块**]( https://github.com/NjtechPrinceling/PrincelingModuleHub )
+- [**南工在线**](http://online.njtech.edu.cn)
+- [**FPGA模块**]( https://github.com/NjtechPrinceling/PrincelingModuleHub )
+- [**基于FPGA的五子棋**](https://github.com/Starrynightzyq/ZYNQ-PYNQ-Z2-Gobang)
+  - 第二届全国大学生FPGA设计竞赛全国一等奖、最佳创意奖
+  - 用硬件加速五子棋算法
+  - 来自学长：周玉乾
 
 ## 更新日志
 
@@ -18,8 +21,6 @@
 >
 > 增加了boards
 >
-> 
->
 > @2019年11月29日
 >
 > @王磊
@@ -31,8 +32,10 @@
 > 增加文件夹 74IP
 >
 > 增加文件夹 HowToStudy
+>
+> 删除文件夹 74IP 转移到 Hub 里
 
-## 上手之前须知
+## <center>上手之前须知</center>
 
 1. `Vivado` 不能解析中文路径，请确保自己的工程目录没有英文，否则综合**必定失败**
 
@@ -46,10 +49,12 @@
 
 4. 成为 Xilinx FPGA 高手之路
 
-   1. [Digilent OpenSource IPCore]( https://github.com/Digilent/vivado-library)
-   2. 
+   - [Digilent OpenSource IPCore]( https://github.com/Digilent/vivado-library)
 
-## 文档内容说明
+   - [黑金 Xilinx 例程仓库](https://github.com/alinxalinx )
+   - [ZYNQ自学指南]( http://adiuvoengineering.com/microzed-chronicles/?tdsourcetag=s_pctim_aiomsg)
+
+## <center>文档内容说明</center>
 
 ### EGO_1_Lab
 
@@ -59,23 +64,31 @@
 
 #### 3-EGo配套实验
 
-手把手叫你学习EGO1，一些即开即用的程序。
+手把手教你学习EGO1，一些即开即用的程序。
 
 ### Digital-Design-Lab
 
 我们专业学习FPGA的课本(是很好的一本书)对应的源码
 
-能够直接用的开发板有`basys3`和`EGO-1`.
+能够直接用的开发板有`basys3`和`EGO-1`。
 
 ### HowToStudy
 
-里面有一些入门的文档，包括一些电子图书、华为的verilog编程规范。
+#### GettingStart
+
+里面有一些入门的文档，包括一些电子图书。
+
+> 但是FPGA毕竟是一门需要实践的课程。
+>
+> 如果你有现成的FPGA开发板，直接看3-EGO配套实验，手把手教学效果一定会更好。
+>
+> 如果在平时没有开发板时，也想学习，可以阅读该文档的内容。
+
+#### HowToDevelop
+
+华为的verilog编程规范、开发经验。
 
 其中 `《华为verilog编程规范》`相当重要，一个好的编程习惯使你受益终生。
-
-### 74IP
-
-一些用FPGA实现的74系列芯片IPCore。
 
 ### boards
 
